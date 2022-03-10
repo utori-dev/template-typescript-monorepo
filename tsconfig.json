@@ -31,7 +31,9 @@
     "strict": true,
 
     /* Set JS language version to be ES6, which is well-supported across browsers. */
-    "target": "es6"
+    "target": "es6",
+
+    "types": ["jest"]
   },
   "references": [{ "path": "./packages/hello" }, { "path": "./packages/world" }]
 }

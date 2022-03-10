@@ -1,7 +1,2 @@
-export function createHelloMessage(name: string): string {
-  return `Hello, ${name}!`;
-}
-
-export function logHelloMessage(name: string): void {
-  console.log(createHelloMessage(name));
-}
+export { default as createGreeting } from './createGreeting';
+export { default as logGreeting } from './logGreeting';
