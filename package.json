@@ -7,9 +7,9 @@
   "scripts": {
     "build": "npm run build --workspaces",
     "clean": "npm run clean --workspaces",
+    "lint": "npm run lint --workspaces",
     "test": "npm run test --workspaces",
-    "setup": "npm install && npm install --workspaces",
-    "tsc": "tsc"
+    "setup": "npm install && npm install --workspaces"
   },
   "workspaces": [
     "packages/*"

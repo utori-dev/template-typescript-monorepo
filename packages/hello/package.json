@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "clean": "rimraf dist/",
+    "lint": "prettier --write src",
     "test": "jest"
   }
 }
